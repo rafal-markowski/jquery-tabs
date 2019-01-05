@@ -55,5 +55,9 @@ module.exports = {
             inject: 'head'
         })
     ],
+    devServer: {
+        host: '0.0.0.0',
+        port: 8080
+    },
     mode: devMode ? 'development' : 'production'
 }
